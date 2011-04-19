@@ -1,0 +1,25 @@
+Global setup:
+
+ Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email ronald_rodil@yahoo.com
+        
+
+Next steps:
+
+  mkdir Workspace
+  cd Workspace
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:ronaldbr/Workspace.git
+  git push -u origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:ronaldbr/Workspace.git
+  git push -u origin master
+      
